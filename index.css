@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  /* transition: all 0.1s ease-in-out; */
+}
+:root {
+  /* --color1: #faeed6;
+  --color2: #e9ab57;
+  --color3: #3d1d0d; */
+  --colorFondo: #faeed6;
+  --colorLetras: #e9ab57;
+}
+body {
+  background-color: var(--colorFondo);
+  color: var(--colorLetras);
+}
+.Title {
+  font-size: 9pc;
+}
+.SubTitle {
+  font-size: 3pc;
+}
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+}
+section {
+  width: 95%;
+  /* border: 1px solid blue; */
+  position: absolute;
+}
+.Retangle1,
+.Retangle4 {
+  /* background-color: red; */
+  width: 550px;
+  height: 290px;
+  border-radius: 22px;
+}
+.Retangle2,
+.Retangle3 {
+  border-radius: 22px;
+  /* background-color: blue; */
+  width: 273px;
+  height: 290px;
+}
+.Containers {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid orange; */
+  width: 70%;
+  margin-right: 3pc;
+  gap: 1pc;
+}
+button {
+  padding: 0.6pc 1pc;
+  border-radius: 22px;
+  border: 1px solid;
+  background-color: var(--colorLetras);
+  color: var(--colorFondo);
+  font-size: 1.4pc;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--colorFondo);
+  color: var(--colorLetras);
+}
+
+.Retangle1 {
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.489),
+      rgba(0, 0, 0, 0.489)
+    ),
+    url(./img/Oblea1.png);
+}
+.Retangle2 {
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.489),
+      rgba(0, 0, 0, 0.489)
+    ),
+    url(./img/Oblea2.png);
+}
+.Retangle3 {
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.489),
+      rgba(0, 0, 0, 0.489)
+    ),
+    url(./img/Oblea3.png);
+}
+/* .Retangle4 {
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.489),
+      rgba(0, 0, 0, 0.489)
+    ),
+    url(./img/Oblea4.png);
+} */
